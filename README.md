@@ -7,6 +7,9 @@ Daily JavaScript and CSS animation experiments to sharpen frontend skills.
 | # | Name | Preview |
 |---|------|---------|
 | 001 | Fade In | [View](./001-fade-in) |
+| 002 | Bounce | [View](./002-bounce) |
+| 003 | Slide In | [View](./003-slide-in) |
+| 004 | Pulse | [View](./004-pulse) |
 
 ## Tech Stack
 
