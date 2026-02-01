@@ -10,6 +10,8 @@ Daily JavaScript and CSS animation experiments to sharpen frontend skills.
 | 002 | Bounce | [View](./002-bounce) |
 | 003 | Slide In | [View](./003-slide-in) |
 | 004 | Pulse | [View](./004-pulse) |
+| 005 | Rotate In | [View](./005-rotate-in) |
+| 006 | Shake | [View](./006-shake) |
 
 ## Tech Stack
 
