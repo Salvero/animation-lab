@@ -12,6 +12,7 @@ Daily JavaScript and CSS animation experiments to sharpen frontend skills.
 | 004 | Pulse | [View](./004-pulse) |
 | 005 | Rotate In | [View](./005-rotate-in) |
 | 006 | Shake | [View](./006-shake) |
+| 007 | Zoom | [View](./007-zoom) |
 
 ## Tech Stack
 
