@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #2d1b69 0%, #6b21a8 50%, #a855f7 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 40px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.icon {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1rem;
+  opacity: 0.8;
+  margin-bottom: 30px;
+}
+
+.morph-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  height: 120px;
+}
+
+.morph-shape {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(135deg, #c084fc, #e879f9, #f0abfc);
+}
+
+.morph-shape.animate {
+  animation: morphShape 3s ease-in-out forwards;
+}
+
+@keyframes morphShape {
+  0% {
+    clip-path: circle(50% at 50% 50%);
+    background: linear-gradient(135deg, #c084fc, #e879f9);
+    transform: rotate(0deg) scale(1);
+  }
+  25% {
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    background: linear-gradient(135deg, #e879f9, #f0abfc);
+    transform: rotate(90deg) scale(1.1);
+  }
+  50% {
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    background: linear-gradient(135deg, #f0abfc, #a78bfa);
+    transform: rotate(180deg) scale(1);
+  }
+  75% {
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    background: linear-gradient(135deg, #a78bfa, #818cf8);
+    transform: rotate(270deg) scale(1.1);
+  }
+  100% {
+    clip-path: circle(50% at 50% 50%);
+    background: linear-gradient(135deg, #c084fc, #e879f9);
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+button {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+}

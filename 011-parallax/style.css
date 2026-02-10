@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #3b82f6 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.parallax-scene {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.1s ease-out;
+}
+
+.layer-bg {
+  background:
+    radial-gradient(2px 2px at 10% 20%, rgba(255,255,255,0.3), transparent),
+    radial-gradient(2px 2px at 30% 60%, rgba(255,255,255,0.2), transparent),
+    radial-gradient(2px 2px at 50% 10%, rgba(255,255,255,0.3), transparent),
+    radial-gradient(2px 2px at 70% 80%, rgba(255,255,255,0.2), transparent),
+    radial-gradient(2px 2px at 90% 40%, rgba(255,255,255,0.3), transparent),
+    radial-gradient(2px 2px at 20% 90%, rgba(255,255,255,0.2), transparent),
+    radial-gradient(2px 2px at 80% 15%, rgba(255,255,255,0.25), transparent);
+}
+
+.layer-mid {
+  background:
+    radial-gradient(80px 80px at 20% 70%, rgba(59, 130, 246, 0.15), transparent),
+    radial-gradient(120px 120px at 75% 30%, rgba(139, 92, 246, 0.12), transparent),
+    radial-gradient(60px 60px at 50% 85%, rgba(59, 130, 246, 0.1), transparent);
+}
+
+.layer-fg {
+  background:
+    radial-gradient(40px 40px at 15% 25%, rgba(255,255,255,0.06), transparent),
+    radial-gradient(60px 60px at 85% 75%, rgba(255,255,255,0.05), transparent),
+    radial-gradient(30px 30px at 45% 55%, rgba(255,255,255,0.07), transparent);
+}
+
+.card {
+  position: relative;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 40px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.icon {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1rem;
+  opacity: 0.8;
+  margin-bottom: 30px;
+}
+
+button {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+}
