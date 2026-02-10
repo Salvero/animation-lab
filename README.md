@@ -15,16 +15,16 @@ Daily JavaScript and CSS animation experiments to sharpen frontend skills.
 | 006 | Shake | Horizontal shake/wiggle effect | [View](./006-shake) |
 | 007 | Zoom | Scale in from enlarged state | [View](./007-zoom) |
 
-### Week 2: Intermediate Animations (Upcoming)
-| # | Name | Description |
-|---|------|-------------|
-| 008 | Typewriter | Text typing effect with cursor |
-| 009 | Wave | Staggered wave animation on elements |
-| 010 | Morph | Shape morphing with clip-path |
-| 011 | Parallax | Scroll-based parallax layers |
-| 012 | Hover Lift | 3D hover lift with shadow |
-| 013 | Ripple | Material design ripple on click |
-| 014 | Skeleton | Loading skeleton shimmer |
+### Week 2: Intermediate Animations (In Progress)
+| # | Name | Description | Preview |
+|---|------|-------------|---------|
+| 008 | Typewriter | Text typing effect with cursor | [View](./008-typewriter) |
+| 009 | Wave | Staggered wave animation on elements | [View](./009-wave) |
+| 010 | Morph | Shape morphing with clip-path | [View](./010-morph) |
+| 011 | Parallax | Scroll-based parallax layers | [View](./011-parallax) |
+| 012 | Hover Lift | 3D hover lift with shadow | |
+| 013 | Ripple | Material design ripple on click | |
+| 014 | Skeleton | Loading skeleton shimmer | |
 
 ### Week 3: Advanced Effects (Upcoming)
 | # | Name | Description |
@@ -36,6 +36,28 @@ Daily JavaScript and CSS animation experiments to sharpen frontend skills.
 | 019 | Morphing Text | Text scramble/morph effect |
 | 020 | Liquid | Liquid/blob SVG animation |
 | 021 | Page Transition | Full page transition effect |
+
+### Week 4: Canvas & Physics (Upcoming)
+| # | Name | Description |
+|---|------|-------------|
+| 022 | Confetti | Confetti burst particle explosion |
+| 023 | Spotlight | Cursor spotlight reveal effect |
+| 024 | Gravity | Falling elements with gravity physics |
+| 025 | Trail | Mouse trail with fading particles |
+| 026 | Flip Card | 3D card flip on hover/click |
+| 027 | Elastic | Elastic rubber-band drag effect |
+| 028 | Fireworks | Click-to-launch fireworks canvas |
+
+### Week 5: UI & Micro-interactions (Upcoming)
+| # | Name | Description |
+|---|------|-------------|
+| 029 | Toggle | Animated toggle switch with morph |
+| 030 | Progress Ring | Circular progress bar animation |
+| 031 | Notification | Slide-in toast notification stack |
+| 032 | Accordion | Smooth expand/collapse panels |
+| 033 | Carousel | Infinite scroll image carousel |
+| 034 | Counter | Animated number counting effect |
+| 035 | Menu | Hamburger to X menu transition |
 
 ## Tech Stack
 

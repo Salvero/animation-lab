@@ -78,6 +78,28 @@ No need to ask for permission to commit/push - just do it automatically.
 | 020 | liquid | Liquid/blob SVG animation | Pending |
 | 021 | page-transition | Full page transition effect | Pending |
 
+### Week 4: Canvas & Physics (022-028)
+| # | Name | Description | Status |
+|---|------|-------------|--------|
+| 022 | confetti | Confetti burst particle explosion | Pending |
+| 023 | spotlight | Cursor spotlight reveal effect | Pending |
+| 024 | gravity | Falling elements with gravity physics | Pending |
+| 025 | trail | Mouse trail with fading particles | Pending |
+| 026 | flip-card | 3D card flip on hover/click | Pending |
+| 027 | elastic | Elastic rubber-band drag effect | Pending |
+| 028 | fireworks | Click-to-launch fireworks canvas | Pending |
+
+### Week 5: UI & Micro-interactions (029-035)
+| # | Name | Description | Status |
+|---|------|-------------|--------|
+| 029 | toggle | Animated toggle switch with morph | Pending |
+| 030 | progress-ring | Circular progress bar animation | Pending |
+| 031 | notification | Slide-in toast notification stack | Pending |
+| 032 | accordion | Smooth expand/collapse panels | Pending |
+| 033 | carousel | Infinite scroll image carousel | Pending |
+| 034 | counter | Animated number counting effect | Pending |
+| 035 | menu | Hamburger to X menu transition | Pending |
+
 ---
 
 ## File Templates
