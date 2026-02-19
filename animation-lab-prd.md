@@ -63,9 +63,9 @@ No need to ask for permission to commit/push - just do it automatically.
 | 009 | wave | Staggered wave animation on elements | ✅ Done |
 | 010 | morph | Shape morphing with clip-path | ✅ Done |
 | 011 | parallax | Scroll-based parallax layers | ✅ Done |
-| 012 | hover-lift | 3D hover lift with shadow | Pending |
-| 013 | ripple | Material design ripple on click | Pending |
-| 014 | skeleton | Loading skeleton shimmer | Pending |
+| 012 | hover-lift | 3D hover lift with shadow | ✅ Done |
+| 013 | ripple | Material design ripple on click | ✅ Done |
+| 014 | skeleton | Loading skeleton shimmer | ✅ Done |
 
 ### Week 3: Advanced Effects (015-021)
 | # | Name | Description | Status |
